@@ -17,7 +17,7 @@ class SpecificationsRepository implements ISpecificationsRepository {
             description,
             name
         })
-        console.log(specification)
+     
         await this.repository.save(specification)
     }
 
